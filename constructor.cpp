@@ -9,6 +9,11 @@ class mahasiswa
 
 mahasiswa::mahasiswa()
 {
-    cout << "Constructor Terpanggi" << endl; // definisi constructor
+    cout << "Constructor Terpanggil" << endl; // definisi constructor
 };
 
+int main()
+{
+    mahasiswa mhs; // pembuatan object
+    return 0;
+}
